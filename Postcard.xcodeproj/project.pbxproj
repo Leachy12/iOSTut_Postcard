@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB3A3E2C19E8297E007CBC48 /* Grungy-Paper-Texture-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB3A3E2B19E8297E007CBC48 /* Grungy-Paper-Texture-3.jpg */; };
+		BB3A3E2E19E82AEE007CBC48 /* cookislands.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3A3E2D19E82AEE007CBC48 /* cookislands.png */; };
+		BB3A3E3019E832F6007CBC48 /* JennaSue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB3A3E2F19E8317F007CBC48 /* JennaSue.ttf */; };
 		BBDD6DE119E80B7900C978B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD6DE019E80B7900C978B1 /* AppDelegate.swift */; };
 		BBDD6DE319E80B7900C978B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD6DE219E80B7900C978B1 /* ViewController.swift */; };
 		BBDD6DE619E80B7900C978B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDD6DE419E80B7900C978B1 /* Main.storyboard */; };
 		BBDD6DE819E80B7900C978B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDD6DE719E80B7900C978B1 /* Images.xcassets */; };
 		BBDD6DEB19E80B7900C978B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBDD6DE919E80B7900C978B1 /* LaunchScreen.xib */; };
 		BBDD6DF719E80B7900C978B1 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD6DF619E80B7900C978B1 /* PostcardTests.swift */; };
+		BBDD6E0519E81BA800C978B1 /* stamp.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDD6E0419E81BA800C978B1 /* stamp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB3A3E2B19E8297E007CBC48 /* Grungy-Paper-Texture-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grungy-Paper-Texture-3.jpg"; sourceTree = "<group>"; };
+		BB3A3E2D19E82AEE007CBC48 /* cookislands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookislands.png; sourceTree = "<group>"; };
+		BB3A3E2F19E8317F007CBC48 /* JennaSue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JennaSue.ttf; sourceTree = "<group>"; };
 		BBDD6DDB19E80B7900C978B1 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDD6DDF19E80B7900C978B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBDD6DE019E80B7900C978B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		BBDD6DF019E80B7900C978B1 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDD6DF519E80B7900C978B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBDD6DF619E80B7900C978B1 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		BBDD6E0419E81BA800C978B1 /* stamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stamp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,10 @@
 		BBDD6DDE19E80B7900C978B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BB3A3E2F19E8317F007CBC48 /* JennaSue.ttf */,
+				BB3A3E2D19E82AEE007CBC48 /* cookislands.png */,
+				BB3A3E2B19E8297E007CBC48 /* Grungy-Paper-Texture-3.jpg */,
+				BBDD6E0419E81BA800C978B1 /* stamp.png */,
 				BBDD6DDF19E80B7900C978B1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +173,7 @@
 				TargetAttributes = {
 					BBDD6DDA19E80B7900C978B1 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 2Q7YUC2T64;
 					};
 					BBDD6DEF19E80B7900C978B1 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -192,7 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3A3E3019E832F6007CBC48 /* JennaSue.ttf in Resources */,
 				BBDD6DE619E80B7900C978B1 /* Main.storyboard in Resources */,
+				BBDD6E0519E81BA800C978B1 /* stamp.png in Resources */,
+				BB3A3E2E19E82AEE007CBC48 /* cookislands.png in Resources */,
+				BB3A3E2C19E8297E007CBC48 /* Grungy-Paper-Texture-3.jpg in Resources */,
 				BBDD6DEB19E80B7900C978B1 /* LaunchScreen.xib in Resources */,
 				BBDD6DE819E80B7900C978B1 /* Images.xcassets in Resources */,
 			);
@@ -336,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +424,7 @@
 				BBDD6DFC19E80B7900C978B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBDD6DFD19E80B7900C978B1 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +433,7 @@
 				BBDD6DFF19E80B7900C978B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
